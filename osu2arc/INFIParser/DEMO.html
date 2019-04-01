@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META charset='utf-8' />
+<TITLE>INFIParser TEST &amp; DEMO</TITLE>
+<STYLE>
+html{font-family:sans-serif}
+#mentah{position:fixed;top:0px;left:0px;width:50%;height:100%;color:#fff;background:#000;border:solid 1px #0099ff}
+#hasil{position:fixed;top:0px;right:0px;width:50%;height:100%;color:#fff;background:#000;border:solid 1px #9900FF}
+#converter{position:fixed;bottom:0px;left:0px;right:0px;width:200px;height:50px;margin-left:auto;margin-right:auto;color:#fff;border:solid 3px #fff;background:#000;z-index:2}
+</STYLE>
+</HEAD>
+<BODY>
+<TEXTAREA id='mentah' placeholder="[EmiyaSyahriel]
+isHandsome=relative
+Country=Indonesia
+FavoriteColorC=0x0099FF
+FavoriteColorH=#0099FF
+Catchphrase=Terserahlah.. Sak karepmu
+Age=17
+GitHubPage=https://github.com/EmiyaSyahriel"></TEXTAREA>
+<BUTTON onclick='CONVERT()' id='converter'>Convert to JSON</BUTTON>
+<DIV id='hasil'></DIV>
+<SCRIPT src='INFIParser.js'></SCRIPT>
+<SCRIPT>
+const gid = function(x){return document.getElementById(x)}
+function CONVERT(){
+window.converted = new INFIParser(gid('mentah').value).parsedProperties
+setTimeout(function(){gid('hasil').innerHTML = JSON.stringify(converted)},100)
+}
+</SCRIPT>
+</BODY>
+</HTML>
