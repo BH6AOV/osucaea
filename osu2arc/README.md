@@ -1,6 +1,6 @@
 # osu2arc.js (v1.0) : an osu! to Arcaea Beatmap Convert Tool
 ## by EmiyaSyahriel
-====
+----
 For now, It currently supports hold and tap notes, no arcs. This tool is written in *pure* JavaScript, **HTML** file or **node.js** is needed
 
 
