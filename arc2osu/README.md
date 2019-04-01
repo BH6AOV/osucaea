@@ -1,13 +1,11 @@
-# osu2arc.js : an osu! to Arcaea Beatmap Convert Tool
-
-For now, It currently supports hold and tap notes, no arcs.
-
-This tool is written in *pure* JavaScript, **HTML** file or **node.js** is needed
+# osu2arc.js (v1.0) : an osu! to Arcaea Beatmap Convert Tool
+## by EmiyaSyahriel
+====
+For now, It currently supports hold and tap notes, no arcs. This tool is written in *pure* JavaScript, **HTML** file or **node.js** is needed
 
 
 
 ### osu! Beatmap requirements:
-
 ----
 
 - 4K osu!mania only
@@ -16,7 +14,6 @@ This tool is written in *pure* JavaScript, **HTML** file or **node.js** is neede
 
 
 ### Phone Requirement:
-
 ----
 
 - **Rooted** Android
@@ -27,7 +24,6 @@ This tool is written in *pure* JavaScript, **HTML** file or **node.js** is neede
 
 
 ### Preparation:
-
 ----
 
 - **Ogg version of the osu!song**, you can convert the mp3 yourself using **FormatFactory**. Rename it to the **song you want to replace + "_base"**, e.g: "**halcyon_base.ogg**" , "**inkarusi_base.ogg**"
@@ -45,7 +41,6 @@ This tool is written in *pure* JavaScript, **HTML** file or **node.js** is neede
 
 
 ### How To Mod (Android):
-
 ----
 
 - **Launch Arcaea**, then **minimize when tap-to-start screen** appear
@@ -66,7 +61,6 @@ This tool is written in *pure* JavaScript, **HTML** file or **node.js** is neede
 
 
 ### Tips
-
 ----
 
 - You cannot **change the song name** since they are contained **inside the APK file**, except you **mod the APK** itself
@@ -85,7 +79,6 @@ This tool is written in *pure* JavaScript, **HTML** file or **node.js** is neede
 
 
 ### Bug / Issues
-
 ----
 
 Use issue tracker to **report bugs or issues**. Don't use it to ask help!
@@ -93,7 +86,6 @@ Use issue tracker to **report bugs or issues**. Don't use it to ask help!
 
 
 ### TODO:
-
 ------
 
 - Support for other osu! beatmap modes
@@ -103,7 +95,6 @@ Use issue tracker to **report bugs or issues**. Don't use it to ask help!
 
 
 ### DISCLAIMER
-
 ----
 
 I don't have any affiliation with the creators of **osu! (peppy)** or **Arcaea (lowiro)**.  This tool is only made for **fun and as a experiment**. If you choose to use it, It's ***your own risk***. I am not responsible to any mistakes and damages that this tool made. This tool is released under **BSD 3-clause License**.
